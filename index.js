@@ -7,7 +7,7 @@ const { listContacts,
   
 const program = new Command();
 program
-  .requiredOption('-a, --action <type>', 'choose action')
+  .option('-a, --action <type>', 'choose action')
   .option('-i, --id <type>', 'user id')
   .option('-n, --name <type>', 'user name')
   .option('-e, --email <type>', 'user email')
